@@ -10,7 +10,8 @@ def clip_gradients(g, max_norm):
     
     g_norm = np.linalg.norm(g)
 
-    g[g_norm > max_norm] = g[g_norm > max_norm] * max_norm / g_norm
+    if g_norm > max_norm:
+        g = g * max_norm / g_norm
 
     return g
     
