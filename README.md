@@ -50,6 +50,7 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 | Skip-gram Negative Sampling Loss | Implement skip-gram negative-sampling loss from center, positive-context, and negative-word embedding scores. | https://www.tensortonic.com/research/word2vec/word2vec-sgns-loss |
 | Skip-gram Pair Generation | Generate Word2Vec skip-gram training pairs by pairing each center token with words inside its context window. | https://www.tensortonic.com/research/word2vec/word2vec-skipgram-pairs |
 | Frequent-Word Subsampling | Implement Word2Vec frequent-word subsampling by computing token retention probabilities from corpus frequencies. | https://www.tensortonic.com/research/word2vec/word2vec-subsampling |
+| Adaptive Average Pool 2D | Implement adaptive two-dimensional average pooling with variable, possibly overlapping regions for arbitrary output sizes. | https://www.tensortonic.com/study-plans/cracking-cv/cv-adaptive-avg-pool-2d |
 | Average Pool 2D | Apply two-dimensional average pooling to an image with the requested kernel and stride, without padding. | https://www.tensortonic.com/study-plans/cracking-cv/cv-avg-pool-2d |
 | Bilinear Resize | Resize a grayscale image with corner-aligned bilinear interpolation matching PyTorch interpolation semantics. | https://www.tensortonic.com/study-plans/cracking-cv/cv-bilinear-resize |
 | Per-Channel Mean and Std | Compute population means and standard deviations for every channel across a batch of images in NHWC layout. | https://www.tensortonic.com/study-plans/cracking-cv/cv-channel-statistics |
